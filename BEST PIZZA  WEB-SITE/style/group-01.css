@@ -1,0 +1,38 @@
+.group-01 {
+    width: 100%;
+    min-height: 100dvh;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), 
+                      url(../assets/img/BACKGROUND-01.png);
+    background-position: center;
+    background-size: cover;
+
+    & header {
+        padding-top: 2rem;
+        
+        & a {
+            padding-top: 1rem;
+            & img {
+                width: 5.25rem;
+
+            }
+        }
+      
+        & nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+        }
+    }
+
+    & aside {
+        width: 50%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+        align-items: center;
+    
+        
+    }
+}

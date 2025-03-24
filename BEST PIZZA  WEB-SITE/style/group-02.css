@@ -1,0 +1,56 @@
+.group-02 {
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url(../assets/img/BACKGROUND-02.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    & .hero {
+        height: 100%;
+       
+
+            & header {
+                padding-block: 2.5rem;
+                text-align: center;
+                & h1 {
+                    padding-block: 1rem;
+
+                }
+    
+                & p {
+
+                }
+            }
+
+            & .contect-card {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+
+                & .card {
+                    width: 15.6rem;
+                    height: 21rem;
+                    text-align: center;
+
+                    & img {
+                        width: 100%;
+                     
+                        object-fit: cover;
+                        border-radius: 50%;
+                        
+                    }
+
+                    & h3 {
+                        padding-block: 1rem;
+                    }
+                }
+            }
+        }
+
+
+
+}
